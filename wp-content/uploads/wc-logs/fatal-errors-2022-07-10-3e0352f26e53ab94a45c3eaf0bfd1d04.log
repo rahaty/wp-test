@@ -1,0 +1,6 @@
+2022-07-10T08:53:19+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting ';' or ',' in /var/www/html/wp-content/plugins/test plugin/plugin.php on line 12
+
+2022-07-10T08:53:21+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting ';' or ',' in /var/www/html/wp-content/plugins/test plugin/plugin.php on line 12
+
+2022-07-10T08:53:22+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting ';' or ',' in /var/www/html/wp-content/plugins/test plugin/plugin.php on line 12
+

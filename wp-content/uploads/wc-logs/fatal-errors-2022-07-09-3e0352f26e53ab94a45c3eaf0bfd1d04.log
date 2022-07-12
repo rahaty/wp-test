@@ -1,0 +1,32 @@
+2022-07-09T15:38:14+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/wp-content/plugins/customplugin/uploadfile.php on line 15
+
+2022-07-09T15:38:44+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/wp-content/plugins/customplugin/uploadfile.php on line 15
+
+2022-07-09T15:43:30+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/wp-content/plugins/customplugin/uploadfile.php on line 15
+
+2022-07-09T15:43:40+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/wp-content/plugins/customplugin/uploadfile.php on line 15
+
+2022-07-09T15:44:42+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/wp-content/plugins/customplugin/uploadfile.php on line 15
+
+2022-07-09T17:22:00+00:00 CRITICAL Uncaught Error: Class 'IDRCloudClient' not found in /var/www/html/wp-content/plugins/test plugin/plugin.php:51
+Stack trace:
+#0 /var/www/html/wp-content/plugins/test plugin/plugin.php(41): test_convert()
+#1 /var/www/html/wp-content/plugins/test plugin/plugin.php(15): test_handle_post()
+#2 /var/www/html/wp-includes/class-wp-hook.php(307): test_init()
+#3 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#5 /var/www/html/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/test plugin/plugin.php on line 51
+
+2022-07-09T18:50:14+00:00 CRITICAL Uncaught Error: Class 'IDRCloudClient' not found in /var/www/html/wp-content/plugins/test plugin/plugin.php:51
+Stack trace:
+#0 /var/www/html/wp-content/plugins/test plugin/plugin.php(41): test_convert()
+#1 /var/www/html/wp-content/plugins/test plugin/plugin.php(15): test_handle_post()
+#2 /var/www/html/wp-includes/class-wp-hook.php(307): test_init()
+#3 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#5 /var/www/html/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/test plugin/plugin.php on line 51
+

@@ -1,0 +1,48 @@
+2022-06-07T11:54:05+00:00 CRITICAL Uncaught Error: Call to a member function is_feature_active() on null in /var/www/html/wp-content/themes/sala/inc/elementor/widgets/image.php:835
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1934): Sala_Elementor\Widget_Image->content_template()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1654): Elementor\Controls_Stack->_content_template()
+#2 /var/www/html/wp-content/plugins/elementor/includes/managers/widgets.php(385): Elementor\Controls_Stack->print_template()
+#3 /var/www/html/wp-content/plugins/elementor/core/editor/editor.php(1054): Elementor\Widgets_Manager->render_widgets_content()
+#4 /var/www/html/wp-includes/class-wp-hook.php(307): Elementor\Core\Editor\Editor->wp_footer()
+#5 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/general-template.php(3058): do_action()
+#8 /var/www/html/wp-content/plugins/e in /var/www/html/wp-content/themes/sala/inc/elementor/widgets/image.php on line 835
+
+2022-06-07T11:54:32+00:00 CRITICAL Uncaught Error: Call to a member function is_feature_active() on null in /var/www/html/wp-content/themes/sala/inc/elementor/widgets/image.php:835
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1934): Sala_Elementor\Widget_Image->content_template()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1654): Elementor\Controls_Stack->_content_template()
+#2 /var/www/html/wp-content/plugins/elementor/includes/managers/widgets.php(385): Elementor\Controls_Stack->print_template()
+#3 /var/www/html/wp-content/plugins/elementor/core/editor/editor.php(1054): Elementor\Widgets_Manager->render_widgets_content()
+#4 /var/www/html/wp-includes/class-wp-hook.php(307): Elementor\Core\Editor\Editor->wp_footer()
+#5 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/general-template.php(3058): do_action()
+#8 /var/www/html/wp-content/plugins/e in /var/www/html/wp-content/themes/sala/inc/elementor/widgets/image.php on line 835
+
+2022-06-07T11:55:50+00:00 CRITICAL Uncaught Error: Call to a member function is_feature_active() on null in /var/www/html/wp-content/themes/sala/inc/elementor/widgets/image.php:835
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1934): Sala_Elementor\Widget_Image->content_template()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1654): Elementor\Controls_Stack->_content_template()
+#2 /var/www/html/wp-content/plugins/elementor/includes/managers/widgets.php(385): Elementor\Controls_Stack->print_template()
+#3 /var/www/html/wp-content/plugins/elementor/core/editor/editor.php(1054): Elementor\Widgets_Manager->render_widgets_content()
+#4 /var/www/html/wp-includes/class-wp-hook.php(307): Elementor\Core\Editor\Editor->wp_footer()
+#5 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/general-template.php(3058): do_action()
+#8 /var/www/html/wp-content/plugins/e in /var/www/html/wp-content/themes/sala/inc/elementor/widgets/image.php on line 835
+
+2022-06-07T11:55:53+00:00 CRITICAL Uncaught Error: Call to a member function is_feature_active() on null in /var/www/html/wp-content/themes/sala/inc/elementor/widgets/image.php:835
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1934): Sala_Elementor\Widget_Image->content_template()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1654): Elementor\Controls_Stack->_content_template()
+#2 /var/www/html/wp-content/plugins/elementor/includes/managers/widgets.php(385): Elementor\Controls_Stack->print_template()
+#3 /var/www/html/wp-content/plugins/elementor/core/editor/editor.php(1054): Elementor\Widgets_Manager->render_widgets_content()
+#4 /var/www/html/wp-includes/class-wp-hook.php(307): Elementor\Core\Editor\Editor->wp_footer()
+#5 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/general-template.php(3058): do_action()
+#8 /var/www/html/wp-content/plugins/e in /var/www/html/wp-content/themes/sala/inc/elementor/widgets/image.php on line 835
+

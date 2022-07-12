@@ -1,0 +1,1 @@
+<p>This tool will sync your cloud storage media to your local filesystem, copying down anything on cloud storage that isn't on your local disk.</p><?php /**PATH /var/www/html/wp-content/plugins/ilab-media-tools/views/tasks/batch/instructions/sync-local-files.blade.php ENDPATH**/ ?>

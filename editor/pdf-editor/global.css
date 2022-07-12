@@ -1,0 +1,146 @@
+.toolbar {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(172, 172, 172, 0.25),
+    0px -4px 8px rgba(169, 169, 169, 0.25);
+  border-radius: 10px;
+  height: 123px;
+  -webkit-transition: all 100ms ease-in-out;
+  -moz-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+
+.toolbar--expand {
+  height: 215px;
+  -webkit-transition: all 100ms ease-in-out;
+  -moz-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+
+.line-break {
+  background: rgba(6, 6, 7, 0.19);
+  border-radius: 2.56px;
+  height: 4px;
+  width: 48px;
+}
+
+body {
+  background: #e5e5e5;
+  font-family: "Lato";
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.button {
+  background: #c1272d;
+  border-radius: 6px;
+}
+
+.header {
+  background-color: rgba(247, 94, 5, 0.2);
+  background: linear-gradient(
+    55.95deg,
+    rgba(255, 63, 58, 0.2) 0%,
+    rgba(247, 94, 5, 0.2) 100%
+  );
+  height: 85px;
+}
+
+.edit-pdf-name {
+  height: 26px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  width: 12rem;
+}
+
+.download {
+  border-radius: 12px;
+  height: 43px;
+  width: 195px;
+}
+
+.hover-pencil:hover {
+  cursor: url("./pencil.png"), pointer;
+}
+
+.canvas {
+  box-shadow: 0px 0px 12.8264px rgba(0, 0, 0, 0.13);
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-color: rgba(247, 94, 5, 0.2);
+    background: linear-gradient(
+      55.95deg,
+      rgba(255, 63, 58, 0.2) 0%,
+      rgba(247, 94, 5, 0.2) 100%
+    );
+    height: 69px;
+    right: 0px;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .toolbar {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(172, 172, 172, 0.25),
+      0px -4px 8px rgba(169, 169, 169, 0.25);
+    border-radius: 10px;
+    height: 123px;
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+  }
+
+  .edit-pdf-name {
+    font-size: 14px;
+    line-height: 17px;
+    width: 7.5rem;
+  }
+
+  input::placeholder {
+    color: #6f7782;
+    opacity: 0.7;
+  }
+
+  .toolbar--expand {
+    height: 200px;
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+  }
+
+  .hidden {
+    display: none;
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+  }
+
+  .line-break-2 {
+    background-color: #eaeef2;
+    height: 2px;
+  }
+
+  .choose-file {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
+}
