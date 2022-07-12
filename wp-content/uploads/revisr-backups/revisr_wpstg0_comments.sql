@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS `wpstg0_comments`;
+CREATE TABLE `wpstg0_comments` (
+  `comment_ID` bigint unsigned NOT NULL AUTO_INCREMENT,
+  `comment_post_ID` bigint unsigned NOT NULL DEFAULT '0',
+  `comment_author` tinytext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `comment_author_email` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `comment_author_url` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `comment_author_IP` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `comment_date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `comment_date_gmt` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `comment_content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `comment_karma` int NOT NULL DEFAULT '0',
+  `comment_approved` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '1',
+  `comment_agent` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `comment_type` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'comment',
+  `comment_parent` bigint unsigned NOT NULL DEFAULT '0',
+  `user_id` bigint unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`comment_ID`),
+  KEY `comment_post_ID` (`comment_post_ID`),
+  KEY `comment_approved_date_gmt` (`comment_approved`,`comment_date_gmt`),
+  KEY `comment_date_gmt` (`comment_date_gmt`),
+  KEY `comment_parent` (`comment_parent`),
+  KEY `comment_author_email` (`comment_author_email`(10))
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+LOCK TABLES `wpstg0_comments` WRITE;
+INSERT INTO `wpstg0_comments` VALUES ('1','1','A WordPress Commenter','wapuu@wordpress.example','https://wordpress.org/','','2022-02-08 18:04:11','2022-02-08 18:04:11','Hi, this is a comment.\nTo get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.\nCommenter avatars come from <a href=\"https://gravatar.com\">Gravatar</a>.','0','1','','comment','0','0'), ('2','2939','How to edit a PDF on Mac: Easy steps','','https://dev.a1office.co/wp-staging-site/blog/how-to-edit-a-pdf-on-mac-easy-steps/','2a02:4780:a::1f','2022-04-18 09:33:13','2022-04-18 09:33:13','[&#8230;] When you&#8217;re finished, you can download your edited PDF directly from the site. This editing tool can be a great alternative option if you are looking for answers about how to type on a pdf without Adobe Acrobat. [&#8230;]','0','1','The Incutio XML-RPC PHP Library -- WordPress/5.9.3','pingback','0','0'), ('3','2939','How to write on a pdf','','https://dev.a1office.co/wp-staging-site/blog/how-to-write-on-a-pdf/','2a02:4780:a::1f','2022-04-19 10:56:26','2022-04-19 10:56:26','[&#8230;] Adobe Acrobat is the most famous editor of all time but it has subscription-based editing features which can be a limitation to many teachers and students. Therefore opting for online PDF editors can prove to be a perfect answer to the query of how to type on a pdf without Adobe Acrobat. [&#8230;]','0','1','The Incutio XML-RPC PHP Library -- WordPress/5.9.3','pingback','0','0'), ('4','2951','How to write on a pdf','','https://dev.a1office.co/wp-staging-site/blog/how-to-write-on-a-pdf/','2a02:4780:a::1f','2022-04-19 10:56:51','2022-04-19 10:56:51','[&#8230;] is a free online PDF editor that you can use to write on PDF for free. Whether you need to edit a pdf on Mac or any other device, the A1Office PDF editor can be the most suitable option. You can edit font [&#8230;]','0','1','The Incutio XML-RPC PHP Library -- WordPress/5.9.3','pingback','0','0'), ('5','2967','How to Edit a PDF in Google Drive','','https://dev.a1office.co/wp-staging-site/blog/how-to-edit-a-pdf-in-google-drive/','2a02:4780:a::1f','2022-04-21 12:27:42','2022-04-21 12:27:42','[&#8230;] you can edit a PDF in Google Drive using the built-in tools. If you have doubts regarding how to write on a pdf or even how to edit a pdf on mac, Google drive can help with that. However, there are some [&#8230;]','0','1','The Incutio XML-RPC PHP Library -- WordPress/5.9.3','pingback','0','0'), ('6','2951','Becker','Igorb823@gmail.com','','2003:c0:f736:a100:c82a:7610:5afe:1498','2022-04-23 08:02:26','2022-04-23 08:02:26','REZEPT FÜR MICH\r\nRohypnol oder flunitrazepam 1mg 20st. N2','0','1','Mozilla/5.0 (Linux; Android 11; SM-A225F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36','comment','0','0'), ('7','3250','Gautam','gautam@spiraldevapps.com','','172.70.219.22','2022-05-05 07:20:20','2022-05-05 07:20:20','This is great!','0','1','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36','comment','0','5'), ('8','3250','AnaeleNag','AnaeleNag@maill1.xyz','','141.101.99.16','2022-05-10 19:44:22','2022-05-10 19:44:22','https://newfasttadalafil.com/ - cialis daily Lin MD PHD Nephrologist Massachusetts General Hospital Associate Professor of Medicine Harvard Medical School. <a href=\"https://newfasttadalafil.com/\" / rel=\"nofollow ugc\">cialis 5 mg best price usa</a> m  on the moon. Vbcfyr buy cialis from an anline pharmacy Gbbujb https://newfasttadalafil.com/ - Cialis Zremjx','0','0','Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36','comment','0','0');
+UNLOCK TABLES;
