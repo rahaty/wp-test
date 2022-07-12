@@ -3,8 +3,8 @@
    Plugin Name: Custom plugin
    Plugin URI: http://makitweb.com
    description: A simple custom plugin to demonstrate file upload
-   Version: 1.0.0
-   Author: Yogesh Singh
+   Version: 1.0.1
+   Author: rahat yasmin
    Author URI: http://makitweb.com/about
  */
 
